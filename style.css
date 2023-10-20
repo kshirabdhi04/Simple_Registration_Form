@@ -1,0 +1,78 @@
+body {
+    background: linear-gradient(to right, #4a2548, #b9207f, #8b4288);
+    font-family: 'Poppins', sans-serif;
+}
+
+#form {
+    width: 400px;
+    margin: 25vh auto 0 auto;
+    padding: 40px;
+    background-color: rgba(207, 230, 231, 0.5);
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+#form h1 {
+    color: #ad2384;
+    text-align: center;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(41, 160, 51);
+    border: none;
+    border-radius: 4px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #f51643;
+}
+
+.input-control .error {
+    color: #f51643;
+    font-size: 9px;
+    height: 13px;
+}
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+  }
+  
+  .popup h1 {
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .popup p {
+    font-size: 14px;
+  }
